@@ -8,7 +8,7 @@ const Tooltip = ({text,children})=>{
         <div className="tooltip" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
               {children}
               {
-                isHovered && <span className="tooltiptext">{text}</span>
+                isHovered && <div className="tooltiptext">{text}</div>
               }
              
         </div>

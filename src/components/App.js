@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import "./../styles/App.css";
 import Tooltip from "./Tooltip";
 
@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Tooltip text="This is a tooltip">
-          <h1>Hover over me</h1>
+          <h2>Hover over me</h2>
       </Tooltip>
       <br/> <br/> <br/>
       <Tooltip text="This is another tooltip">
